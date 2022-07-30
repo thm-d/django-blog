@@ -1,0 +1,179 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');*/
+@import 'reset.css';
+@import 'variables.css';
+
+/* base */
+
+body {
+    background: var(--light);
+    letter-spacing: .05rem;
+}
+
+nav {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s all;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#blog h1 {
+    font-size: 3.5rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--primary);
+    color: whitesmoke;
+    height: auto;
+    width: 60%;
+    min-width: 600px;
+    margin: 5rem 0;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0 var(--text);
+}
+
+#blog article {
+    width: 90%;
+    margin: 2rem 3rem 1rem;
+}
+
+/*@media (max-width: 1024px) {*/
+/*    #blog article {*/
+/*        width: 85%;*/
+/*    }*/
+/*}*/
+
+/* blogpost_list */
+
+.post-title {
+    color: var(--bright);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-title a {
+    color: steelblue;
+    margin-left: 1.5rem;
+    display: inline-block;
+}
+
+.post-title a:last-child {
+    color: orangered;
+}
+
+.post-title a:hover {
+    opacity: 0.8;
+}
+
+.post-author {
+    margin: 1rem 0
+}
+
+.post-excerpt {
+    width: 100%;
+    margin-bottom: 1rem;
+    background: var(--light);
+    color: var(--text);
+    line-height: 2rem;
+    font-style: italic;
+    padding: .8rem;
+    border-radius: 5px;
+}
+
+/* blogpost_detail */
+
+.post-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-detail > h1 {
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    color: var(--bright);
+}
+
+.post-detail img {
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+}
+
+/* form */
+
+form {
+    width: 80%;
+    /*text-align: center;*/
+}
+
+.form-list {
+    width: 100%;
+    text-align: center;
+}
+
+input, textarea {
+    background: var(--light);
+    display: block;
+    padding: .75rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: .5rem;
+    min-width: 100%;
+    outline: none;
+    margin: 0 0 2rem;
+}
+
+label {
+    display: inline-block;
+    margin: 1.6rem 0;
+}
+
+.article-container form p {
+    margin: 1rem 0;
+}
+
+/* buttons */
+
+.btn {
+    padding: 1rem;
+    border: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    border-radius: .5rem;
+    width: 80%;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.reset-btn {
+    margin: 2rem auto;
+    width: 50%;
+}
+
+.btn-submit {
+    background: steelblue;
+}
+
+.btn-delete {
+    background: orangered;
+}
+
+.form-delete {
+    width: 300px;
+}

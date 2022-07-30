@@ -1,0 +1,28 @@
+:root {
+    --font-family: 'Raleway', sans-serif;
+
+    /*colors*/
+    --light: #E3DCD2;
+    --bright: #CC8B65;
+    --primary: #013328;
+    --dark: #100C0D;
+    --text: #333;
+    --light-text: mintcream;
+    --border-color: #999;
+}
+
+/*--light: #FAE6B1;*/
+/*--bright: #FFA101;*/
+/*--primary: #B3DEE5;*/
+/*--dark: #31525B;*/
+/*--text: #333;*/
+/*--background: #fafafa;*/
+/*--border: #ddd;*/
+
+/*--light: #60a3bc;*/
+/*--primary: #6a89cc;*/
+/*--dark: #3c6382;*/
+/*--text: #333;*/
+/*--background: #fafafa;*/
+/*--hint: #999;*/
+/*--border: #ddd;*/
